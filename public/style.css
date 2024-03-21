@@ -1,0 +1,21 @@
+button {
+  cursor: pointer;
+}
+.grid-container {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* Adjust the number of columns as needed */
+}
+.grid-item {
+  aspect-ratio: 1/1;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(
+    235,
+    235,
+    235
+  ); /* Adjust the background color as needed */
+}
